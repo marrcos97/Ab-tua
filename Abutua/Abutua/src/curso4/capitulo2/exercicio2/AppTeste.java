@@ -1,0 +1,23 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package curso4.capitulo2.exercicio2;
+
+/**
+ *
+ * @author marcos.gomes
+ */
+public class AppTeste {
+    public static void main(String[] args) {
+        Moto moto = new Moto();
+        Carro carro = new Carro();
+        Bicicleta bicicleta = new Bicicleta();
+        
+        System.out.println(carro);
+        System.out.println(moto);
+        System.out.println(bicicleta);
+        
+    }
+}
